@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.dependency "React-Core"
   s.dependency "CocoaAsyncSocket"
   s.dependency "Starscream", "~> 3.1.1"
-  s.dependency "CocoaMQTT/WebSockets", "2.1.3"
+  s.dependency "CocoaMQTT/WebSockets", "2.0.5"
 end
