@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "13.0" }
-  s.source       = { :git => "http://github.com/6d7a/quito.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://github.com/itweb62/quito.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
   s.requires_arc = true
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.dependency "React-Core"
   s.dependency "CocoaAsyncSocket"
   s.dependency "Starscream", "~> 3.1.1"
-  s.dependency "CocoaMQTT/WebSockets", "2.0.5"
+  s.dependency "CocoaMQTT/WebSockets", "2.1.3"
 end
